@@ -24,10 +24,8 @@ export default{
             let resultDisplay = $('#result')
             resultDisplay.addClass('animated pulse')
             resultDisplay.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
-                console.log('animation ended')
                 resultDisplay.removeClass('animated pulse')
             })
-            console.log("count changed")
         }
     }
 }
