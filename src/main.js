@@ -3,6 +3,7 @@
 import Vue from 'vue'
 
 import '!script-loader!jquery'
+import '!style-loader!css-loader!animate.css/animate.min.css'
 import store from './store'
 
 import App from './App'

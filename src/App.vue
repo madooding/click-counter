@@ -42,6 +42,8 @@ export default {
 
 <style>
 
+  @import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+
   * {
     padding: 0px;
     margin: 0px;
