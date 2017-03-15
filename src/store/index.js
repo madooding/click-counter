@@ -14,7 +14,12 @@ const state = {
 const mutations = {
     INCREMENT (state, amount) {
         state.count = state.count + amount
+    },
+
+    RESET (state) {
+        state.count = 0
     }
+
 }
 
 export default new Vuex.Store({

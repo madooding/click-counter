@@ -1,15 +1,20 @@
 <template>
-  <div class="mainContainer">
-    <Result></Result>
+  <div>
+    <div class="mainContainer">
+      <Result></Result>
+    </div>
+    <reset-btn></reset-btn>
   </div>
 </template>
 
 <script>
 import Result from './components/Result'
+import ResetBtn from './components/ResetBtn'
 
 export default {
   components: {
-    Result
+    Result,
+    ResetBtn
   },
 
   data: () => ({
@@ -17,7 +22,7 @@ export default {
   }),
 
   mounted(){
-      $(document).on('click', () => {
+      $('.mainContainer').on('click', () => {
         this.increment()
         this.changeBackgroundColor()
       })
