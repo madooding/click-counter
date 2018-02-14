@@ -1,6 +1,9 @@
 # click-counter
 
-> a project bulid for my girlfriend
+> a project bulid for my girlfriend and so that I could study redux (vuex) concept.
+
+## Demo
+[Kunnida's Click Counter](https://click.madooding.com/)
 
 ## Build Setup
 
